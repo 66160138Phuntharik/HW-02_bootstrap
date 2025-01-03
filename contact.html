@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header >
+        <div class="content-container"><h1>ช่องทางการติดต่อ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="places.html">สถานที่ท่องเที่ยว</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+    <main>
+        <section class="form-contact">
+            <h2>ฟอร์มการติดต่อ</h2>
+            <form  class="form-m" action="#" method="POST">
+                <!-- ชื่อ-นามสกุล -->
+                <label for="name">ชื่อ-นามสกุล :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <!-- อีเมล -->
+                <label for="email">อีเมล :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- เบอร์โทรศัพท์ -->
+                <label for="phone">เบอร์โทรศัพท์ :</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <!-- ข้อความ -->
+                <label for="message">ข้อความ :</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <!-- ปุ่มส่งข้อมูล -->
+                <button type="submit">ส่งข้อมูล</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="content-container">
+        <p>&copy; 2024 เว็บไซต์แนะนำสถานที่ท่องเที่ยวจังหวัดชลบุรี</p>
+    </footer>
+</body>
+</html>
