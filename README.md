@@ -22,3 +22,4 @@
 - git merge indexPage
 - git merge placesPage
 - git merge contactPage
+- git push origin development 
