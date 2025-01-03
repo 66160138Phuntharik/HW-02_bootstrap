@@ -12,27 +12,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Header */
-header {
-    background-color: #1b60c1;
-    color: #fff;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 21px;
-}
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    font-size: 20px;
-    padding: 0.5rem;
-}
-header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
 header nav a:hover {
     text-decoration: underline; /* ขีดเส้นใต้ */
 }
@@ -50,6 +29,9 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
     font-size: 19px;
+}
+.contact {
+    margin: 0.9rem auto; /* จัดกรอบให้อยู่ตรงกลางและมีช่องว่างด้านบน-ล่าง */
 }
 /* Responsive Design */
 @media (max-width: 768px) {
